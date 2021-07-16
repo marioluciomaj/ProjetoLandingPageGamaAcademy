@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+header{
+margin-top: 20px;
+
+}
+section{
+    padding: 20px;
+    background-image: url('../images/significado-liberdade.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+.title{
+    font-size: 26px;
+}
+section{
+    color: black;
+}
+.formContainer{
+    max-width: 230px ;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+h2{
+    font-size: 16px;
+    text-align: center;
+}
+p{
+   color: #888;
+   text-align: center ;  
+}
+.mb{
+    margin-bottom: 15px;
+    
+}
+h4{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    background-color: #FF0066;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+input[type="submit"]{
+    color: white;
+    background-color: #FF0066;
+    font-weight: bold;
+}
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+
+}
+
+/*=======================================================
+                        Components
+=========================================================*/
+/*==================     Brand     ======================*/
+.brand {
+    display:;
+    width: 1000px;
+    height:80px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .brand:before {
+    content: '';
+    background-color: #fff;
+    width: 20px;
+    height: 150%;
+    position: absolute;
+    left: -150%;
+    -moz-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -moz-transform: rotateZ(-45deg);
+    -ms-transform: rotateZ(-45deg);
+    -o-transform: rotateZ(-45deg);
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
+    top: 0;
+  }
+  .brand_name {
+    text-align:center;
+    background-color: #FF0066;
+    color: white;
+    padding: 4px;
+    margin: auto;
+    
+  }
+  .brand:hover:before {
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    left: 100%;
+  }
